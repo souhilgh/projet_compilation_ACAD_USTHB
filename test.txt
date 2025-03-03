@@ -1,0 +1,14 @@
+PROGRAM Test
+VAR{
+    INTEGER b ;
+    INTEGER a = 5;
+
+    FLOAT i ;
+}
+BEGIN
+    a = (5 * 5) * (5 * 5);
+    b = 5 / 5;
+    IF ( a != b ) {
+        a = 5;
+    }
+END.
